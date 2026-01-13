@@ -74,12 +74,14 @@ infra-lab/
 │   │   ├── metrics.md        # 메트릭 기반 감지 / 한계
 │   │   ├── logs.md           # 로그 기반 분석 흐름
 │   │   ├── errors.md         # 에러 트래킹(Sentry) 활용
+|   |   ├── ... 
 │   │   └── alerting.md       # 알림은 언제, 무엇을 기준으로 울려야 하는가
 │   |
 │   ├── infra-components/
 │   │   ├── nginx.md          # Nginx 관점의 장애 포인트와 관측 지점
 │   │   ├── docker.md         # 컨테이너 레벨 장애/리소스 이슈
 │   │   ├── ci-cd.md          # 배포 과정에서의 실패 시나리오
+|   |   ├── ... 
 │   │   └── monitoring-stack.md
 │   |
 │   ├── failure-experiments/
@@ -87,10 +89,12 @@ infra-lab/
 │   │   ├── memory-leak.md    # 메모리 누수 실험
 │   │   ├── nginx-502.md      # Reverse Proxy 장애
 │   │   ├── disk-full.md      # 디스크 부족
+|   |   ├── ... 
 │   │   └── ex-api-network-delay.md  # 외부 API 네트워크 지연 / 단절
 │   |
 │   └── checklists/
 │       ├── 장애-대응-체크리스트.md
+|       ├── ... 
 │       └── 복구-후-검증-체크리스트.md
 │
 └── README.md
